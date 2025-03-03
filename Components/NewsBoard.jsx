@@ -8,7 +8,7 @@ const NewsBoard = ({category}) => {
 
     useEffect(()=>{
       
-        let url=`https://newsdata.io/api/1/latest?apikey=pub_50822197ae71b3e52955aa207448ce0d33088&category=${category}&language=en`;
+        let url=`https://newsdata.io/api/1/latest?apikey="your_api_key"&category=${category}&language=en`;
         fetch(url).then(response=> response.json()).then(data=> setArticles(data.results)).catch(error => console.error('Error fetching the articles:', error));
         console.log(articles);
 
