@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/5efe3f07-03ac-4666-a94a-a8358412d293)# 📰 NEWS-MAG
+# 📰 NEWS-MAG
 demo:https://headlinehunt.netlify.app/
 A **React-based** news website that fetches and displays news by category using an API. Stay updated with the latest headlines across multiple topics! 🚀  
 
